@@ -1,0 +1,12 @@
+digraph Automaton { 
+  rankdir = LR
+  0 [label="{{q0_create,q1_at,q2_cry},{q2_epsilon},{q0_epsilon},{q1_epsilon}}",peripheries=2];  1 [label="{{q1_a}}"];  2 [label="{{q2_c},{q0_c}}"];  3 [label="{}"];  4 [label="{{q0_cr},{q2_cr}}"];  5 [label="{{q0_cre}}"];  6 [label="{{q0_create,q1_at,q2_cry}}"];  7 [label="{{q0_crea}}"];  8 [label="{{q0_creat}}"];  0 -> 1 [label = "a" ]
+  0 -> 2 [label = "c" ]
+  0 -> 3 [label = "e" ]
+  2 -> 4 [label = "r" ]
+  4 -> 5 [label = "e" ]
+  4 -> 6 [label = "y" ]
+  5 -> 7 [label = "a" ]
+  7 -> 8 [label = "t" ]
+}
+

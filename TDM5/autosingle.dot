@@ -1,0 +1,12 @@
+digraph Automaton { 
+  rankdir = LR
+  0 [label="q_epsilon"];  1 [label="q_u"];  2 [label="q_un"];  3 [label="q_un "];  4 [label="q_un m"];  5 [label="q_un mo"];  6 [label="q_un mot",peripheries=2];  start0 [style=invis]
+  start0 -> 0[color="black:white:black"]
+  0 -> 1 [label = "u" ]
+  1 -> 2 [label = "n" ]
+  2 -> 3 [label = " " ]
+  3 -> 4 [label = "m" ]
+  4 -> 5 [label = "o" ]
+  5 -> 6 [label = "t" ]
+}
+
